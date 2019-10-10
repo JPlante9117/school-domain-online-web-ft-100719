@@ -5,11 +5,16 @@ class School
   
   def initialize(name)
     @name = name
-    @school_roster = Hash.new 
+    roster
+  end
+  
+  def roster
+     Hash.new 
   end
   
   def add_student(name, grade)
-    
+    roster[:grade] = []
+    rosterp[:grade] << name
   end
   
 end
