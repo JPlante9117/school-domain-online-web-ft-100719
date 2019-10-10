@@ -9,11 +9,11 @@ class School
   end
   
   def roster
-    school_roster = Hash.new 
+    @school_roster = Hash.new 
   end
   
   def add_student(name, grade)
-    
+    @school_roster[:grade] = [name]
   end
   
 end
