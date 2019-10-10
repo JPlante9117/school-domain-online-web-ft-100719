@@ -17,7 +17,10 @@ class School
     #   @roster[grade] << name
     # end
     
-    @roster[grade] ||= []
+    #below is the same code!
+    
+    @roster[grade] ||= []   #if left side(@roster[grade]) is false, then it is set equal to right side.
+                            #otherwise, it is not changed.
     @roster[grade] << name
 
   end
