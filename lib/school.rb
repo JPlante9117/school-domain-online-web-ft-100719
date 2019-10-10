@@ -5,10 +5,6 @@ class School
   
   def initialize(name)
     @name = name
-    @school_roster
-  end
-  
-  def roster
     @school_roster = Hash.new 
   end
   
