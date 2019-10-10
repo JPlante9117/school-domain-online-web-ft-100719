@@ -1,6 +1,6 @@
 class School
 
-  roster = Hash.authenticate_or_request_with_http_digest
+  roster = Hash.new 
   def initialize(roster)
     
   end
