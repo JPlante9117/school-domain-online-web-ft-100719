@@ -1,15 +1,11 @@
 class School
   
   attr_accessor 
-  attr_reader :name
+  attr_reader :name :roster
   
   def initialize(name)
     @name = name
-    roster
-  end
-  
-  def roster
-     @school_roster = Hash.new 
+    @roster = {}
   end
   
   def add_student(name, grade)
