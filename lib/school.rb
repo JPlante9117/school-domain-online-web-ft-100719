@@ -12,4 +12,8 @@ class School
     Hash.new 
   end
   
+  def add_student(name, grade)
+    self.roster << 
+  end
+  
 end
